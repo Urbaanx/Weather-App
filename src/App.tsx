@@ -14,7 +14,7 @@ function App() {
     setLoading(true);
     setWeather(null);
     try {
-      const data: WeatherData = await fetchWeatherData(city); // Użycie api.ts
+      const data: WeatherData = await fetchWeatherData(city);
       setWeather(data);
     } catch (err) {
       alert('Błąd podczas pobierania danych pogodowych');

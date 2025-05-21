@@ -5,7 +5,7 @@ export async function fetchWeatherData(city: string){
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric&lang=pl`);
 
     if (!response.ok) {
-        throw new Error('Failed to fetch weather data');
+        throw new Error('Błąd podczas pobierania danych pogodowych');
     }
 
     return response.json();
