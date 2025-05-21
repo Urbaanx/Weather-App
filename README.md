@@ -11,6 +11,9 @@ Aplikacja pogodowa stworzona w React + TypeScript. Pozwala na szybkie sprawdzeni
 
 ## Live preview 🚀
 
+Aplikacja jest dostępna online!  
+Kliknij link, aby zobaczyć działającą wersję na żywo: https://weatherapptnaf.netlify.app/
+
 ## Instrukcja instalacji i uruchomienia 🛠️
 
 1. **Klonowanie repozytorium**  
